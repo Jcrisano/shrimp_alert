@@ -1,0 +1,34 @@
+{
+    "exercises":[
+        {"name": "pull-up", "reps": 5, "bodyPart": "upper"},
+        {"name": "push-up", "reps": 20, "bodyPart": "upper"},
+        {"name": "dips", "reps": 20, "bodyPart": "upper"},
+        {"name": "inverted row", "reps": 15, "bodyPart": "upper"},
+        {"name": "squat", "reps": 10, "bodyPart": "lower"},
+        {"name": "wall-sit", "duration": 30, "bodyPart": "lower"},
+        {"name": "lunge", "reps": 10, "bodyPart": "lower"},
+        {"name": "rdl", "reps": 20, "bodyPart": "lower"},
+        {"name": "glute bridge", "reps": 20, "bodyPart": "lower"},
+        {"name": "sit-ups", "reps": 20, "bodyPart": "core"},
+        {"name": "planks", "duration": 60, "bodyPart": "core"},
+        {"name": "hollow-body holds", "duration": 30, "bodyPart": "core"}
+    ],
+    "stretches": [
+        {"name": "neck rolls", "duration": null},
+        {"name": "standing hamstring stretch", "duration": 30},
+        {"name": "sitting hamstring stretch", "duration": 30},
+        {"name": "standing quadriceps stretch", "duration":30},
+        {"name": "calf stretch", "duration": 30},
+        {"name": "chest stretch", "duration": 30},
+        {"name": "butterfly stretch", "duration": 60},
+        {"name": "pidgeon stretch", "duration": 60},
+        {"name": "greatest stretch in the world", "duration":60},
+        {"name": "triangle pose", "duration": 30}
+    ],
+    "postureChecks":[
+        {"cue": "sit up straight"},
+        {"cue": "tuck your chin"},
+        {"cue": "pull shoulders back"},
+        {"cue": "squeeze glutes"}
+    ]
+}
