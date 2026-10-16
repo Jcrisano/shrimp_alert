@@ -1,14 +1,14 @@
 {
     "exercises":[
-        {"name": "pull-up", "reps": 5, "bodyPart": "upper"},
-        {"name": "push-up", "reps": 20, "bodyPart": "upper"},
+        {"name": "pull-ups", "reps": 5, "bodyPart": "upper"},
+        {"name": "push-ups", "reps": 20, "bodyPart": "upper"},
         {"name": "dips", "reps": 20, "bodyPart": "upper"},
-        {"name": "inverted row", "reps": 15, "bodyPart": "upper"},
-        {"name": "squat", "reps": 10, "bodyPart": "lower"},
-        {"name": "wall-sit", "duration": 30, "bodyPart": "lower"},
-        {"name": "lunge", "reps": 10, "bodyPart": "lower"},
-        {"name": "rdl", "reps": 20, "bodyPart": "lower"},
-        {"name": "glute bridge", "reps": 20, "bodyPart": "lower"},
+        {"name": "inverted rows", "reps": 15, "bodyPart": "upper"},
+        {"name": "squats", "reps": 10, "bodyPart": "lower"},
+        {"name": "wall-sits", "duration": 30, "bodyPart": "lower"},
+        {"name": "lunges", "reps": 10, "bodyPart": "lower"},
+        {"name": "RDLs", "reps": 20, "bodyPart": "lower"},
+        {"name": "glute bridges", "reps": 20, "bodyPart": "lower"},
         {"name": "sit-ups", "reps": 20, "bodyPart": "core"},
         {"name": "planks", "duration": 60, "bodyPart": "core"},
         {"name": "hollow-body holds", "duration": 30, "bodyPart": "core"}
