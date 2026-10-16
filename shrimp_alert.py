@@ -1,11 +1,26 @@
 import sys
 import time
+import json
+from read_file import exercise_list
 
 def main():
     print("Welcome to Shrimp Alert!")
+
     continue_options_list = [1, 2, 3]
     frequency = set_interval(input("Frequency of reminder (seconds): "))
     verified_frequency = verify_frequency(frequency)
+    exercise_file = "exercises.json"
+
+    ex_list = json.loads(exercise_list(exercise_file))
+    ex_list_types = list(ex_list.keys())
+    for exercise_type in ex_list_types:
+        print(exercise_type.upper())
+        for i in ex_list[exercise_type]:
+            if len(list(i.keys())) > 1:
+                print(f"EXERCISE: {i[list(i.keys())[0]]}, {list(i.keys())[1].upper()}: {i[list(i.keys())[1]]}")
+            else:
+                print(f"{i[list(i.keys())[0]]}")
+        print()
     
     while True:  
         print(f"Checking Posture in {verified_frequency} seconds!")
@@ -36,6 +51,8 @@ def main():
         else:
             print("Must choose 1, 2, or 3.")
 
+    
+
 
 def set_interval(user_input):
     frequency = (user_input)
@@ -64,6 +81,9 @@ def verify_frequency(frequency):
         else:
             print("Must choose 'y' or 'n': ")
     return frequency
+
+
+
 
 
 if __name__ == "__main__":
